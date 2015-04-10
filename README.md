@@ -1,13 +1,13 @@
 # Minitest::Expect::Hashkeys
 
-TODO: Write a gem description
+Add a simple assertion to compare the keys of two (possibly deep) hashes
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'minitest-expect-hashkeys'
+gem 'minitest-expect_hashkeys'
 ```
 
 And then execute:
@@ -16,11 +16,15 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install minitest-expect-hashkeys
+    $ gem install minitest-expect_hashkeys
 
 ## Usage
 
-TODO: Write usage instructions here
+assert_deep_hash_key_equality(expected_hash, actual_hash)
+
+OR
+
+actual.must_have_deep_hash_key_equality expected
 
 ## Contributing
 
